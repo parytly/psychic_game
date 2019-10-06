@@ -52,20 +52,3 @@ document.onkeypress = function(event){
     document.getElementById("guessedLetters").innerHTML = "Your Guesses Letters: " + guessedLetters;
 
 }
-    // for (var i =0; i < guessedLetters.length; i++){
-    //     if (guessedLetters[i] === userChoice) {
-    //         console.log("yoyo");
-    //         // return;
-    //     }else{
-    //         guessedLetters.push(" " + userChoice + " ");
-    //     }
-    // }
-
-    // PREVENTS REPEAT LETTERS TO RUN
-
-//     for (var i = 0; i < guessedLetters.length; i++){
-//         if (guessedLetters.includes(event.key)){
-//             return;
-//             console.log("yooyoyo");
-//         }
-//  }
